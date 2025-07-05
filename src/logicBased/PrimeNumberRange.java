@@ -16,7 +16,7 @@ Prime numbers between 10 and 30 are: 11, 13, 17, 19, 23, 29
  
  
 */
-package logic_based_program;
+package logicBased;
 
 import java.util.Scanner;
 
@@ -33,11 +33,11 @@ public class PrimeNumberRange {
 		boolean isPrime=true;
 		for(int i =start;i<=end; i++) {
 			
+			isPrime=true;
+			
 			if(i <= 1) {
 				continue;
 			}
-			
-			isPrime=true;
 			
 			for(int j=2;j<= Math.sqrt(i);j++) {
 				 if(i % j == 0) {
