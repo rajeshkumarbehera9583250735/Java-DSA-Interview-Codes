@@ -37,14 +37,13 @@ public class PrimeNumberRange {
 			
 			if(i <= 1) {
 				continue;
-			}
-			
-			for(int j=2;j<= Math.sqrt(i);j++) {
-				 if(i % j == 0) {
-					 isPrime=false;
-				 }
-			}
-			
+			}else {
+				for(int j=2;j<= Math.sqrt(i);j++) {
+					 if(i % j == 0) {
+						 isPrime=false;
+					 }
+				}
+			}	
 			if(isPrime) {
 				System.out.println(i + " is a prime number.");
 			}else {
