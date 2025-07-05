@@ -1,4 +1,4 @@
-/**
+/*
  * Problem Statement:
  * Write a Java program to print the first N prime numbers starting from a user-given number.
  */
