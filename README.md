@@ -8,8 +8,6 @@ This repository contains Java solutions for common DSA (Data Structures and Algo
 - `Strings` – Palindrome, Anagram, Reverse Words
 - `LinkedList` – Reverse LL, Detect Cycle
 - `Trees` – Inorder, BFS, DFS
-- `Recursion` – Factorial, Subsets, Permutations
-- `DynamicProgramming` – Fibonacci, Knapsack
 - `SortingAndSearching` – Binary Search, Merge Sort
 
 ## 👨‍💻 Author
