@@ -1,4 +1,19 @@
+/*
+ 
+Problem Statement:
+You are given a 2D matrix of dimensions r × c. Write a Java program to rotate the matrix by 90 degrees clockwise. 
+Your solution should involve transpose and row reversal, not brute force copying to a new rotated matrix manually.
 
+Input:
+
+First line: number of rows r
+Second line: number of columns c
+Next r × c elements: matrix values
+
+Output:
+
+Print the matrix after 90° clockwise rotation. 
+ */
 package arrays;
 import java.util.Scanner;
 public class ClockwiseRotateMatrix {
