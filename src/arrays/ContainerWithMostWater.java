@@ -10,6 +10,9 @@ The i-th and j-th lines, together with the x-axis, can form a container.
 Find two lines such that the container formed holds the maximum amount of water.
 Return the maximum amount of water a container can store.
 
+At least two lines must be present in the input.
+You cannot tilt the container.
+
 */
 package arrays;
 
