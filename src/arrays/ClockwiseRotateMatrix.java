@@ -42,13 +42,13 @@ public class ClockwiseRotateMatrix {
 			}
 		}
 		
-		//Reverse the transposed matrix row to get clockwise rotation
+		//Reverse each row of transposed matrix to get clockwise rotation
 		System.out.println("Matrix after 90 degree clockwise rotation:");
 		System.out.println();
 		
 		for(int i=0;i<c;i++) {
 			for(int j=r-1;j>=0;j--) {
-				System.out.print(transposed[i][j]);
+				System.out.print(transposed[i][j]+" ");
 			}
 			System.out.println();
 		}
