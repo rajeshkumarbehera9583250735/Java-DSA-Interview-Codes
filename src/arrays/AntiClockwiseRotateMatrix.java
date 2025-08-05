@@ -42,7 +42,8 @@ public class AntiClockwiseRotateMatrix {
 			}
 		}
 		
-		//Reverse the transposed matrix columns to get Anti-clockwise rotation
+		// Reverse the rows of the transposed matrix to get anti-clockwise rotation
+
 		System.out.println("Matrix after 90° anti-clockwise rotation:");
 		for(int i=c-1;i>=0;i--) {
 			for(int j=0;j<r;j++) {
